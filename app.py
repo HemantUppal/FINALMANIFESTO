@@ -5,7 +5,6 @@ from flask_login import LoginManager, login_user, UserMixin, logout_user, login_
 from model import db,User,Manifesto, Votes,Complaint,Reports,Upload
 from config import Config
 import os
-from werkzeug.utils import secure_filename
 from datetime import datetime
 import random
 from flask_wtf import FlaskForm
